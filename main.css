@@ -1,0 +1,134 @@
+
+:root{
+    font-family: 'Lato', sans-serif;
+}
+
+.warpper{
+    background-color: teal;
+    position: relative;
+}
+
+
+.container .row .title
+    h1{
+    font-size: 4rem;
+}
+
+@media screen and (
+    max-width: 992px) {
+    .m-query-auto{
+        width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    .row-Options{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    /* border: 5px solid red !important; */
+    }
+
+    h1{
+    font-size: 1rem;
+    }
+}
+
+
+.card-combo{
+    width: 85%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(40%);
+    color: blueviolet;
+}
+
+
+
+.Options{
+    /* background-color: yellow; */
+    position: relative;
+}
+
+.Options .container{
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.Options .container .row-Options{
+    width: 80%;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    transform: translateY(50%) translateX(-40%);
+
+}
+
+.Options .container .row-Options .insied{
+    background-color: #fff;
+    color: blueviolet;
+    transition: all 0.55s ease-in-out;
+}
+
+.insied:hover{
+    background-color: #ff8a1d !important;
+    color: #fff !important;
+}
+
+.Plugs .combo{
+    transition: all 0.55s ease-in-out;
+    
+}
+
+.Plugs .combo .text-red{
+    color: red;
+}
+
+.Plugs .combo:hover{
+    background-color: #ff8a1d !important;
+    color: #fff !important;
+}
+
+.Plugs .combo:hover .text-red{
+    color: #fff !important;
+}
+
+.carousel{
+    /* border: 2px solid red; */
+    overflow: visible;
+    width: 75%;
+}
+
+.controla-out-side{
+    width: fit-content;
+    /* border: 2px solid red; */
+}
+
+.carousel-inner{
+    width: fit-content;
+    overflow: visible;
+    /* border: 2px solid red !important; */
+}
+    textarea{
+    resize: none;
+}
+ 
+.person-flip{
+    transform: scaleX(-1) !important; 
+}
+
+.sec6 a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.25s ease-in-out;
+}
+
+.sec6 a:hover{
+    color: skyblue;
+}
